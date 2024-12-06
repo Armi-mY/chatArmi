@@ -1,0 +1,288 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: TommyTebal;
+    src: url(ItemTambahan/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf)
+}
+@font-face {
+    font-family: TommyTipis;
+    src: url(ItemTambahan/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
+}
+
+body{
+    background-color: #fcfcfc;
+}
+.backChat{
+ 
+}
+/* --------------------------------------------- */
+.headerChat{
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    box-shadow: 10px 5px 15px rgba(46, 46, 46, 0.046);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.profilBot{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 15px rgba(46, 46, 46, 0.123);
+}
+.profil-back-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+}
+#header-iconP{
+    font-size: 18px;
+    color: #409996;
+}
+.nickname-bot{
+    font-family: TommyTebal;
+    font-size: 16px;
+    color: #636363;
+}
+.nickname-profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.online-bottom-nickanme{
+    font-family: TommyTipis;
+    font-size: 12px;
+    color: #409996;
+}
+/* --------------------------------------------- */
+
+/* --------------------------------------------- */
+.naviChat{
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    box-shadow: 10px 1px 15px rgba(46, 46, 46, 0.046);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send-chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 70%;
+}
+.input-chat2{
+    width: 83%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: #f2f1f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-chat{
+    width: 90%;
+    height: 70%;
+    border-style: none;
+    outline: none;
+    background-color: #f2f1f5;
+}
+.inputChat-button{
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #409996;
+    color: #ffff;
+    box-shadow: 0 5px 0 #398683;
+}
+.inputChat-button:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+/* --------------------------------------------- */
+
+.dayChat{
+    height: 115px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: TommyTipis;
+    font-size: 12.5px;
+    color: #adb0af76;
+}
+.chatGroup{
+    background-color: #fcfcfcb1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+}
+
+.theChatB{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.ChatB{
+    max-width: 70%;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(46, 46, 46, 0.123);
+    animation:  moveUp 0.5s ease-in-out;
+}
+.borderChatB{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.textB{
+    font-size: 12px;
+    font-family: TommyTipis;
+    text-align: left;
+}
+.hourMinutesB{
+    position: relative;
+    font-size: 10px;
+    font-family: TommyTipis;
+    text-align: left;
+    color: #4099969b;
+}
+@keyframes moveUp {
+    from {
+        transform: translateY(40px);
+    }
+    to {
+         transform: translateY(0);
+    }
+    
+}
+
+.theChat{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.Chat{
+    max-width: 70%;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(46, 46, 46, 0.123);
+    animation:  moveUp 0.5s ease-in-out;
+}
+.borderChat{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.text{
+    font-size: 12px;
+    font-family: TommyTipis;
+    text-align: left;
+}
+.hourMinutes{
+    position: relative;
+    font-size: 10px;
+    font-family: TommyTipis;
+    color: #4099969b;
+    text-align: right;
+}
+
+.buttonChatS-T{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.buttonChatS-T button{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 12px;
+    font-family: TommyTipis;
+    background-color: #409996;
+    color: #fff;
+    box-shadow: 0 5px 0 #398683;
+}
+.buttonChatS-T button:disabled{
+    background-color:#adb0af76 ;
+    box-shadow: 0 5px 0 #90929276;
+    animation: buttonSTD 2s ease-in-out;
+}
+.buttonChatS-T button:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+.buttonJawaban button:disabled{
+    background-color:#adb0af76 ;
+    box-shadow: 0 5px 0 #90929276;
+    animation: buttonSTD 2s ease-in-out;
+}
+.buttonJawaban button{
+    width: 100px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 12px;
+    font-family: TommyTipis;
+    background-color: #409996;
+    color: #fff;
+    box-shadow: 0 5px 0 #398683;
+    word-wrap: break-word;
+}
+.buttonJawaban button:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.jawaban{
+    margin: 10px;
+}
+.buttonJawaban{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+@keyframes buttonSTD {
+    from {
+        background-color: #409996;
+        box-shadow: 0 5px 0 #398683;
+    } to {
+        background-color:#adb0af76 ;
+        box-shadow: 0 5px 0 #90929276;
+    }
+}
+.akhirPostingan{
+    width: 100%;
+    height: 130px;
+}
